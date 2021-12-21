@@ -40,6 +40,7 @@ class HorizontalModeActivity : AppCompatActivity() {
 
 
         if (savedInstanceState == null) {
+
             menu.showBadge(R.id.home)
             menu.showBadge(R.id.settings, 32)
         }
