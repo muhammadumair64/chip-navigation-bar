@@ -14,6 +14,6 @@ public class MenuItem(
     val tintMode: PorterDuff.Mode?,
     @ColorInt val iconColor: Int,
     @ColorInt val textColor: Int,
-    @ColorInt val backgroundColor: Int,
+    @ColorInt var backgroundColor: Int,
     val menuStyle: MenuStyle
 )
