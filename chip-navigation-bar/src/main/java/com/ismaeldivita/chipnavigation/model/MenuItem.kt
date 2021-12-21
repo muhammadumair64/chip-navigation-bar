@@ -5,7 +5,7 @@ import androidx.annotation.ColorInt
 import androidx.annotation.DimenRes
 import androidx.annotation.DrawableRes
 
-internal class MenuItem(
+ class MenuItem(
     val id: Int,
     val title: CharSequence,
     val contentDescription: CharSequence?,
@@ -14,6 +14,6 @@ internal class MenuItem(
     val tintMode: PorterDuff.Mode?,
     @ColorInt val iconColor: Int,
     @ColorInt val textColor: Int,
-    @ColorInt val backgroundColor: Int,
+    @ColorInt var backgroundColor: Int,
     val menuStyle: MenuStyle
 )
